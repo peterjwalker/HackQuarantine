@@ -1,0 +1,15 @@
+Do chrome extension -> then do website (not app)
+Replika chatbot on webiste (using open-source code)
+
+
+Chrome Extension: (https://thoughtbot.com/blog/how-to-make-a-chrome-extension)
+  Enter a fact (copy + paste)
+  Googles that fact
+  Returns a % of how sure it is of that fact and a conclusion
+ 
+Website:
+  Replika Chatbot (https://www.reddit.com/r/replika/comments/bg6v0n/replika_is_open_source/; https://www.wired.com/story/replika-open-source/)
+  Enter a fact (copy + paste)
+  Googles that fact
+  Returns a % of how sure it is of that fact and a conclusion
+  
