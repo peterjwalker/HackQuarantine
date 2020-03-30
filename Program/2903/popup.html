@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+		<style>
+			p {
+				height: 30px;
+				width: 400px;
+                color: whitesmoke;
+                text-align: center;
+			}
+			body {
+				font-family: 'Abel';font-size: 14px;
+			}
+			input[type=text] {
+				width: 400px;
+				height: 300px;
+				border: 1px solid #1c1c1c;
+				border-radius: 4px;
+				padding-top: 12px;
+				padding-bottom: 12px;
+				padding-left: 20px;
+				padding-right: 20px;
+				margin-top: 8px;
+				margin-bottom: 8px;
+				margin-left: 4px;
+				margin-right: 4px;
+				display: inline-block;
+                box-sizing: border-box;
+                background-color: #1c1c1c;
+                
+            }
+            button {
+                color: whitesmoke;
+                background-color: #1c1c1c;
+                border: none;
+                height: 120%;
+                width: 20%;
+                border-radius: 4px;
+                float: right;
+            }
+            button:hover {
+                background-color: #404040;
+            }
+		</style>
+    </head>
+    <body bgcolor="black">
+		<p align="left">Fake News Detector<p>
+        <input type="text" id="news" name="news" placeholder="Test your news. Enter it here...">
+        <button onclick="submitanimation()" id="button">Submit</button>
+        <script src="popup.js"></script>
+        <script>
+            function submitanimation(){
+                document.getElementById("button").innerHTML = "&#10004;";
+                document.getElementById("button").style.color = "#1ac949";
+                
+            }
+        </script>
+    </body>
+</html>
