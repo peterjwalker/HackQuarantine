@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>News Checker</title>
+</head>
+<body>
+
+  <div id="header">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div id="text">
+        <h2>Help</h2>
+        <p>To use this fake news/fact checker program, simply enter the fact such as "Barack Obama doesn't exist",<br>and you should be given a percentage (%) of the validity<br>of that statement</p>
+        <p id="footnote">This program was built by Peter Walker, and Sam Bennett during Hack Quarantine 2020.<br>For help, contact <a href="mailto:peterjw2005@gmail.com" id="email">peterjw2005@gmail.com</a></p>
+      </div>
+    </div>
+    <span style="font-size:30px;cursor:pointer;color:whitesmoke; left: 2%; top: 2%;" onclick="openNav()">&#9776;</span>
+    <img src="help-text.png" id="helptext">
+    <h1 id="title">Fake News Checker</h1>
+  </div>
+<div id="inputbox">
+  <input id="factbox" spellcheck="false"></input>
+  <button onclick="search()" id="searchbtn">Search</button>
+
+  <p><h1 id="percentage">Accuracy: </h1><h2 id="placeholder"><i>will appear here</i></h2></p>
+  <br><br><br>
+  <h3 id="info"></h3>
+  <p id="result1" class="results"></p>
+  <p id="result2" class="results"></p>
+  <p id="result3" class="results"></p>
+  <p id="result4" class="results"></p>
+  <p id="result5" class="results"></p>
+  <p id="result6" class="results"></p>
+  <p id="result7" class="results"></p>
+  <p id="result8" class="results"></p>
+  <p id="result9" class="results"></p>
+</div>
+<script src="scripts.js">
+</script>
+   
+</body>
+</html>
