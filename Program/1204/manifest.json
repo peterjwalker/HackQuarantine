@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "News Checker",
+	"version": "1.2",
+	"description": "Spot fake news!",
+	"permissions": ["activeTab", "declarativeContent", "storage"],
+	"browser_action": {
+		"default_popup": "popup.html",
+		"default_icon": {
+			"16": "images/news-16.png",
+			"32": "images/news-32.png",
+			"64": "images/news-64.png",
+			"128": "images/news-128.png"
+		}
+	},
+	"icons": {
+			"16": "images/news-16.png",
+			"32": "images/news-32.png",
+			"48": "images/news-64.png",
+			"128": "images/news-128.png"
+    }
+}
